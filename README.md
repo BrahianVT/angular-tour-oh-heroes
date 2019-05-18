@@ -2,6 +2,26 @@
 El proyecto se realizo para desarrollar una app en la capa de la vista y poder asi sacar comparaciones con respectivas ventajas y desventajas
 El proyecto fue desarrollado con  [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
 
+## Configuraciones
+Antes de correr el ejemplo debera de asegurarse que tiene las dependencias necesarias que son :
+'''
++ core-js@2.6.5
++ angular-in-memory-web-api@0.8.0
++ @angular/compiler@7.2.15
++ rxjs@6.3.3
++ @angular/animations@7.2.15
++ @angular/core@7.2.15
++ tslib@1.9.3
++ @angular/common@7.2.15
++ @angular/platform-browser-dynamic@7.2.15
++ @angular/platform-browser@7.2.15
++ @angular/forms@7.2.15
++ @angular/router@7.2.15
++ zone.js@0.8.29
+'''
+
+Para instalar las dependencias necesarias. Desde *CMD* posicionado el la carpeta base del proyecto ejecute el comando
+`npm update`.
 ## Servidor de desarrollo
 
 Desde **CMD** usar el comando `ng serve`. Abrir navegador en  `http://localhost:4200/`. La app cargara automaticamente
